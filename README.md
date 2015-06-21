@@ -1,7 +1,8 @@
 aaronRequire
 ============
 
-AMD/CommonJS 加载模式
+AMD
+CommonJS
 
 注意，只是提供一种JS模块化的管理方案，并非跟requirejs一样，提供脚本依赖加载，所以代码只有100多行，非常轻巧
 
