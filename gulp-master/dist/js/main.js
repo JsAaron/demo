@@ -1,0 +1,1 @@
+require.config({baseUrl:"/js/",paths:{zepto:"libs/zepto"}}),require(["vendor/a"],function(e){console.log(e.total(5,10))});
