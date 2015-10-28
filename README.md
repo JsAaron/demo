@@ -22,6 +22,12 @@ puzzleGame<p />
 >github: <https://github.com/JsAaron/myGames/tree/master/puzzleGame>
 ****
 
+###七夕主图
+QiXi<p />
+慕课网七夕主题源码
+>github: <https://github.com/JsAaron/myGames/tree/master/qixi>
+****
+
 ###node_movie
 node_movie<p />
 通过node构建电影网站与后台管理
