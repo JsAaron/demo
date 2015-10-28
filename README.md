@@ -10,8 +10,8 @@ vue-gulp-webpack单页面组件开发<p />
 >github: <https://github.com/JsAaron/vue-gulp-webpack-example/>
 ****
 
-###cardGame
-微信扑克牌小游戏<p />
+###微信扑克牌小游戏
+cardGame<p />
 基于node+webpck，带有flexible方式布局
 >github: <https://github.com/JsAaron/myGames/tree/master/cardGame/>
 ****
