@@ -28,7 +28,7 @@ QiXi<p />
 >github: <https://github.com/JsAaron/myGames/tree/master/qixi>
 ****
 
-###node_movie
+###node电影网站测试
 node_movie<p />
 通过node构建电影网站与后台管理
 >github: <https://github.com/JsAaron/node_movie>
