@@ -21,7 +21,7 @@ puzzleGame<p />
 
 ###七夕主图
 QiXi<p />
-慕课网七夕主题源码
+慕课网七夕主源码
 >github: <https://github.com/JsAaron/myGames/tree/master/qixi>
 ****
 
