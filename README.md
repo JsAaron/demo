@@ -3,7 +3,7 @@
 ###vue-gulp-webpack-example
 
 vue-gulp-webpack单页面组件开发<p />
-附带部分源码分析
+附部分源码分析
 >github: <https://github.com/JsAaron/vue-gulp-webpack-example/>
 ****
 
