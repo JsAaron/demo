@@ -22,7 +22,7 @@ vue-gulp-webpack单页面组件开发<p />
 >github: <https://github.com/JsAaron/myGames/tree/master/qixi>
 ****
 
-###node电影网站测试
+###node电影网站
 通过node构建电影网站与后台管理
 >github: <https://github.com/JsAaron/node_movie>
 ****
