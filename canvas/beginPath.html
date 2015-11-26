@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML5 Canvas Demo</title>
+    <style type="text/css">
+    body {
+        background: #ccc;
+    }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+</head>
+
+<body>
+    <canvas id="myCanvas" width=500px height=500px></canvas>
+    <script type="text/javascript">
+    var myCanvas = document.getElementById("myCanvas");
+    var context = myCanvas.getContext("2d");
+
+
+
+    // context.beginPath();
+    context.arc(0, 0, 100, 0, Math.PI / 2, false);
+    context.fillStyle = 'rgba(255,0,0,0.25)';
+    context.fill();
+    context.strokeStyle = 'rgba(255,0,0,0.25)'
+    // context.closePath();
+    context.stroke();
+
+    // context.beginPath();
+    context.arc(300, 200, 50, 0, Math.PI / 2, false);
+    context.fillStyle = 'rgba(255,0,0,0.25)';
+    context.fill();
+    context.strokeStyle = 'rgba(255,0,0,0.25)';
+    // context.closePath();
+    context.stroke();
+
+
+
+
+     // context.beginPath();
+     // context.arc(200, 150, 100, 0, Math.PI, true);
+     // context.closePath();
+     // context.fillStyle = 'rgba(0,255,0,0.25)';
+     
+     // context.fill();
+
+
+//     context.fillRect(0, 0, 100, 100);
+//     context.strokeRect(120, 0, 100, 100);
+
+//     context.fillStyle = "red";
+//     context.strokeStyle = "blue";
+//     context.fillRect(0, 120, 100, 100);
+//     context.strokeRect(120, 120, 100, 100);
+
+
+// context.fillStyle = "rgba(255,0,0,0.2)";
+//  context.strokeStyle = "rgba(255,0,0,0.2)";
+//    context.fillRect(240,0 , 100, 100);
+//     context.strokeRect(240, 120, 100, 100);
+
+// context.clearRect(50, 50, 240, 120);
+
+    // context.beginPath();
+    // context.arc(100, 150, 50, 0, Math.PI / 2, false);
+    // context.fillStyle = 'rgba(255,0,0,0.25)';
+    // context.fill();
+    // context.strokeStyle = 'rgba(255,0,0,0.25)'
+    // context.closePath();
+    // context.stroke();
+
+    // context.beginPath();
+    // context.arc(300, 150, 50, 0, Math.PI / 2, false);
+    // context.fillStyle = 'rgba(255,0,0,0.25)';
+    // context.fill();
+    // context.strokeStyle = 'rgba(255,0,0,0.25)';
+    // context.closePath();
+    // context.stroke();
+
+
+    </script>
+</body>
+
+</html>
