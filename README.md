@@ -13,7 +13,7 @@ vue-gulp-webpack单页面组件开发<p />
 ****
 
 ###拼图游戏
-3-6-9宫格拼图游戏
+3-6-9宫格拼图
 >github: <https://github.com/JsAaron/myGames/tree/master/puzzleGame>
 ****
 
