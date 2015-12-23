@@ -1,0 +1,14 @@
+{
+  "name": "buffer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "iconv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "iconv-lite": "^0.4.13"
+  }
+}
