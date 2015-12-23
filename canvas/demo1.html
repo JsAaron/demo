@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML5 Canvas Demo</title>
+    <style type="text/css">
+    body {
+        background: #ccc;
+    }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+</head>
+
+<body>
+    <canvas id="myCanvas" width=500px height=500px></canvas>
+    <script type="text/javascript">
+    var myCanvas = document.getElementById("myCanvas");
+    var context = myCanvas.getContext("2d");
+
+
+    context.moveTo(100, 100);
+    context.lineTo(200, 100);
+    context.lineTo(200, 200);
+    context.lineTo(100, 200);
+    context.lineTo(100, 100);
+    context.closePath();//闭合路径
+    context.lineWidth =10
+    context.strokeStyle  = 'rgba(255,0,0,0.5)';
+    context.stroke();
+    </script>
+</body>
+
+</html>

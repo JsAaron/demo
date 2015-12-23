@@ -8,11 +8,14 @@
     </head>
 
     <body>
-        <svg width="320" height="200" xmlns="http://www.w3.org/2000/svg">
-            <text font-family="microsoft yahei" font-size="120" y="160" x="160">马
-                <animate attributeName="x" from="160" to="60" begin="0s" dur="3s" repeatCount="indefinite" />
-                <animate attributeName="opacity" from="1" to="0" begin="0s" dur="3s" repeatCount="indefinite" />
-            </text>
+        <svg width="10cm" height="3cm" viewBox="0 0 100 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>Example Use01 - Simple case of 'use' on a 'rect'</desc>
+            <defs>
+                <rect id="MyRect" width="60" height="10" />
+            </defs>
+            
+            <rect x=".1" y=".1" width="99.8" height="29.8" fill="none" stroke="blue" stroke-width=".2" />
+            <use x="20" y="10" xlink:href="#MyRect" />
         </svg>
     </body>
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML5 Canvas Demo</title>
+    <style type="text/css">
+    body {
+        background: #ccc;
+    }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+</head>
+
+<body>
+    <canvas id="cvs" width=500px height=500px></canvas>
+    <script type="text/javascript">
+    var ctx = document.getElementById('cvs').getContext('2d');
+    ctx.beginPath();
+    ctx.moveTo(100.5, 20.5);
+    ctx.lineTo(200.5, 20.5);
+    ctx.strokeStyle = '#fff';
+    ctx.stroke();
+    ctx.moveTo(100.5, 40.5);
+    ctx.lineTo(200.5, 40.5)
+    ctx.strokeStyle = '#f00';
+    ctx.stroke();
+    </script>
+</body>
+
+</html>
