@@ -11,4 +11,4 @@ rs.on("end",function(){
 	console.log(data)
 })
 
-console.log(rs)
+console.log(rs)  
